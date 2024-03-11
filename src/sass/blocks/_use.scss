@@ -1,0 +1,104 @@
+.use{
+    padding-top: 120px ;
+    &__title {
+        position: relative;
+        text-align: center;
+        @include before_circle;
+        &:before {
+            top: -6px;
+            left: 50%;
+            transform: translateX(-50%);
+           
+        }
+    }
+    &__subtitle {
+        text-align: center;
+    }
+
+    &__wrapper {
+        display: grid;
+        padding: 60px 10px 0 10px;
+        grid-template-columns: repeat(4,270px);
+        grid-template-rows: repeat(2, 270px);
+        column-gap: 13px;
+        row-gap: 13px;
+        
+
+    }
+    &__anime {
+        padding-top: 69px;
+        border-bottom: 1px solid $main-color;
+        border-right: 1px solid $main-color;
+        border-radius: 50%;
+        img {
+            width: 100%;
+            
+             
+        }
+    }
+    &__item {
+        border: 1px solid #000;
+        padding: 30px 30px 25px 30px;
+        &-name {
+            font-weight: 700;
+            font-size: 14px;
+            margin-top: 20px;
+            margin-bottom: 0;
+        }
+        &-text {
+            font-weight: 500;
+            font-size: 12px;
+            margin-top: 15px;
+        }
+        &-head {
+            height: 65px;
+        }
+    }
+
+    &__wrappert {
+        display: grid;
+        padding: 120px 0 0 0;
+        grid-template-columns: repeat(3,350px);
+        grid-template-rows: repeat(2, 70px);
+        column-gap: 45px;
+        row-gap: 30px;
+    }
+
+    &__titlet {
+        @include before_circle;
+        &:before {
+            content: '';
+            position: absolute;
+            top: -5px;
+            left: -1px;
+        }
+        position: relative;
+        padding-left: 10px;
+        z-index: 2;
+        padding-bottom: 20px;
+        &:after {
+            content: '100%';
+            position: absolute;
+            left: 310px;
+            font-weight: 500;
+            font-size: 14px;
+
+        }
+    }
+    &__line {
+        position: relative;
+        border-radius: 4px;
+        width: 350px;
+        height: 14px;
+        background: #e8e4de;
+        span {
+
+            position: absolute;
+            background: black;
+            border-radius: 4px;
+            width: 265px;
+            height: 14px;
+            
+        }
+    }
+}
