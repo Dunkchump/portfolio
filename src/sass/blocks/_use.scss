@@ -55,50 +55,51 @@
         }
     }
 
-    &__wrappert {
+    
+}
+
+
+
+
+
+.skills {
+   
+    &__ratings {
+        margin-top: 120px;
         display: grid;
-        padding: 120px 0 0 0;
-        grid-template-columns: repeat(3,350px);
-        grid-template-rows: repeat(2, 70px);
+        grid-template: repeat(2, minmax(70px, auto)) / repeat(3, 350px);
         column-gap: 45px;
-        row-gap: 30px;
-    }
-
-    &__titlet {
-        @include before_circle;
-        &:before {
-            content: '';
-            position: absolute;
-            top: -5px;
-            left: -1px;
+        row-gap: 35px;
+        &-item {
+            display: grid;
+            grid-template: minmax(21px, auto) 14px / 200px 35px;
+            justify-content: space-between;
+            align-content: space-between;
         }
-        position: relative;
-        padding-left: 10px;
-        z-index: 2;
-        padding-bottom: 20px;
-        &:after {
-            content: '100%';
-            position: absolute;
-            left: 310px;
-            font-weight: 500;
+        &-title {
+            position: relative;
+            padding: 2px 0 0 13px;
+
+            @include before_circle;
+        }
+        &-counter {
             font-size: 14px;
-
+            line-height: 21px;
         }
-    }
-    &__line {
-        position: relative;
-        border-radius: 4px;
-        width: 350px;
-        height: 14px;
-        background: #e8e4de;
-        span {
-
-            position: absolute;
-            background: black;
-            border-radius: 4px;
-            width: 265px;
+        &-line {
+            width: 350px;
             height: 14px;
-            
+            background-color: #E8E4DE;
+            border-radius: 4px;
+            grid-column: 1 / 3;
+            span {
+                display: block;
+                height: 100%;
+                background-color: purple;
+                border-radius: 4px;
+                
+               
+            }
         }
     }
 }
