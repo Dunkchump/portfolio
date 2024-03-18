@@ -1,0 +1,324 @@
+@media (max-width: 1439px) {
+   
+    .sidepanel {
+        display: none;
+    }
+}
+@media (max-width: 1240px) {
+    .container {
+        max-width: 960px;
+    }
+    .about {
+        &__wrapper {
+            grid-template-columns: 400px 520px;
+            column-gap: 40px;
+           
+        }
+        &__skills {
+            column-gap: 20px;
+            grid-template: repeat(2,minmax(115px,auto))/repeat(2,250px);
+            &-item {
+                grid-template-columns: 40px 195px;
+                grid-gap: 15px;
+            }
+        }
+    }
+    .resume {
+        &__wrapper {
+            grid-template-columns: repeat(2, 400px);
+            column-gap: 40px;
+        }
+        
+    }
+    .use {
+        &__wrapper {
+            grid-template-columns: repeat(3, 304px);
+            grid-template-rows: repeat(3, 304px);
+            column-gap: 13px;
+            row-gap: 13px
+        }
+        &__item {
+            padding: 40px;
+        }
+        &__anime {
+            grid-row: 3/4;
+            grid-column: 2/4;
+            img {
+                // width: 269px;
+                // height: 100%;
+               
+            }
+        }
+    }
+    .skills {
+        &__ratings {
+            grid-template: repeat(3,minmax(70px,auto))/repeat(2,350px);
+            column-gap: 45px;
+            row-gap: 35px;
+            justify-content: space-around;
+            &-opacity{
+                opacity: 0;
+            }
+           
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+    .title {
+        &_fz36 {
+            font-size: 30px;
+            line-height: 43px;
+        }
+    }
+
+    .about {
+        &__wrapper {
+            grid-template-columns: 320px 380px;
+            column-gap: 20px;
+           
+        }
+        &__skills {
+            column-gap: 20px;
+           grid-template-columns: 380px;
+            &-item {
+                grid-template-columns: 40px 325px;
+                grid-auto-rows: minmax(115px, auto);
+                grid-gap: 15px;
+            }
+            
+        }
+        
+    }
+    .resume {
+        &__wrapper {
+            padding: 60px 0 0 0;
+            grid-template-columns: repeat(2, 350px);
+            column-gap: 20px;
+        }
+        
+    }
+
+    .use {
+        &__wrapper {
+            grid-template-columns: repeat(2, 344px);
+            grid-template-rows: repeat(4, 344px);
+            column-gap: 13px;
+            row-gap: 13px
+        }
+        &__item {
+            padding: 40px;
+        }
+        &__anime {
+            grid-row: unset;
+            grid-column: unset;
+            img {
+                // width: 269px;
+                // height: 100%;
+               
+            }
+        }
+    }
+    .skills {
+        &__ratings {
+            grid-template: repeat(3,minmax(70px,auto))/repeat(2,320px);
+            column-gap: 45px;
+            row-gap: 35px;
+            justify-content: space-around;
+            &-opacity{
+                opacity: 100;
+            }
+            &-line {
+                width: 320px;
+            }
+           
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+    .title {
+        
+        &_fz48 {
+            font-size: 33px;
+            line-height: 39px;
+        }
+    }
+    .promo {
+        &__title {
+            width: 300px;
+        }
+    }
+
+    .about {
+        padding-top: 40px;
+        &__wrapper {
+            grid-template: 400px auto auto / 1fr;
+            
+           
+        }
+        &__skills {
+            grid-template-columns: repeat(2, 260px);
+            &-item {
+                grid-template-columns: 40px 200px;
+                
+                grid-gap: 15px;
+            }
+            
+        }
+        &__photo {
+            grid-row: unset;
+        }
+        
+    }
+
+    .resume {
+        &__wrapper {
+            
+            grid-template-columns: 1fr;
+            column-gap: 20px;
+        }
+        
+    }
+
+    .use {
+        &__wrapper {
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(4, 247px);
+            column-gap: 13px;
+            row-gap: 13px
+        }
+        &__item {
+            padding: 40px;
+        }
+        &__anime {
+            grid-row: unset;
+            grid-column: unset;
+            img {
+                // width: 269px;
+                // height: 100%;
+               
+            }
+        }
+    }
+    .skills {
+        &__ratings {
+            grid-template: repeat(6,minmax(70px,auto))/ 1fr;
+            column-gap: 45px;
+            row-gap: 35px;
+            justify-content: space-around;
+            &-opacity{
+                opacity: 100;
+            }
+            &-line {
+                width:494px;
+            }
+           
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        width: 100%;
+        padding: 0 10px;
+    }
+    .title {
+        
+        &_fz48 {
+            font-size: 26px;
+            line-height: 39px;
+        }
+        &_fz36 {
+            font-size: 24px;
+        }
+    }
+    .promo {
+        &__btns {
+            margin-top: 100px;
+        }
+    }
+    .hamburger {
+        right: 20px;
+    }
+    .menu {
+        &__block {
+            width: 250px;
+            padding-left: 20px;
+        }
+    }
+
+    .about {
+        padding-top: 40px;
+        &__wrapper {
+            grid-template: 340px auto auto / 1fr;
+            
+           
+        }
+        &__skills {
+            grid-template-columns: 1fr;
+            &-item {
+                grid-template-columns: 40px 230px;
+                
+                grid-gap: 15px;
+            }
+            
+        }
+        &__photo {
+            grid-row: unset;
+        }
+        
+    }
+    .resume {
+        &__wrapper {
+            
+            grid-template-columns: 1fr;
+            column-gap: 20px;
+        }
+        
+    }
+
+    .use {
+        &__wrapper {
+            grid-template-columns: 1fr;
+            grid-template-rows: auto;
+            column-gap: 13px;
+            row-gap: 13px
+        }
+        &__item {
+            padding: 40px;
+        }
+        &__anime {
+            grid-row: unset;
+            grid-column: unset;
+            img {
+                // width: 269px;
+                // height: 100%;
+               
+            }
+        }
+    }
+    .skills {
+        &__ratings {
+            grid-template: repeat(6,minmax(70px,auto))/ 1fr;
+            column-gap: 45px;
+            row-gap: 35px;
+            justify-content: space-around;
+            &-opacity{
+                opacity: 100;
+            }
+            &-line {
+                width:300px;
+            }
+           
+        }
+    }
+    
+    
+}

@@ -1,0 +1,139 @@
+
+    
+    
+    <section class="portfolio">
+        <div class="container">
+            <h2 class="title title_fz16 portfolio__title">Портфоліо</h2>
+            <div class="title title_fz36 portfolio__subtitle">Мої шедеври </div>
+            <div class="divider"></div>
+
+            <div class="portfolio__wrapper">
+                <a href="https://uber.dunkchump.biz.ua/" class="portfolio__item">
+                    <img src="img/works/uber.jpg" alt="uber">
+                </a>
+                <a href="https://www.pulse.dunkchump.biz.ua/" class="portfolio__item">
+                    <img src="img/works/pulse.jpg" alt="pulse">
+                </a>
+                <a href="https://test.dunkchump.biz.ua" class="portfolio__item">
+                    <img src="img/works/bread.jpg" alt="bred">
+                </a>
+                <a href="https://test.dunkchump.biz.ua" class="portfolio__item vertical">
+                    <img src="img/works/plans.jpg " alt="plans">
+                </a>
+                <a href="https://test.dunkchump.biz.ua" class="portfolio__item">
+                    <img src="img/works/ipad.jpg" alt="ipad">
+                </a>
+                <a href="https://test.dunkchump.biz.ua" class="portfolio__item horizonal">
+                    <img src="img/works/mac.jpg" alt="mac">
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="price">
+        <div class="container">
+            <h2 class="title title_fz16 price__title">Price-лист</h2>
+            <div class="divider"></div>
+
+            <div class="price__wrapper">
+                <div class="price__item">
+                    <div class="price__type">Landing-page</div>
+                    <div class="price__count">від 2000 камінців.</div>
+                    <div class="price__descr">
+                        Односторінковий dunkchump будь-якої складності
+                    </div>
+                </div>
+                <div class="price__item">
+                    <div class="price__type">Web-додаток</div>
+                    <div class="price__count">від 10000 камінців</div>
+                    <div class="price__descr">
+                        Додаток в середні браузера
+                    </div>
+                </div>
+                <div class="price__item">
+                    <div class="price__type">Корпоративний dunkchump</div>
+                    <div class="price__count">від 15000 камінців</div>
+                    <div class="price__descr">
+                        dunkchump для вашого бізнеса або компанії
+                    </div>
+                </div>
+                <div class="price__item">
+                    <div class="price__type">Таро-розкладка</div>
+                    <div class="price__count">від 1000 камінців</div>
+                    <div class="price__descr">
+                        Зазирну у ваше майбутнє
+                    </div>
+                </div>
+                <div class="price__item">
+                    <div class="price__type">Інтернет-магазин</div>
+                    <div class="price__count">від 10000 камінців</div>
+                    <div class="price__descr">
+                        Іструмент для ваших продажів онлайн
+                    </div>
+                </div>
+                <div class="price__item">
+                    <div class="price__type">Дизайн</div>
+                    <div class="price__count">Індивідуально</div>
+                    <div class="price__descr">
+                       Створю <span>найкращий</span> дизайн для вашого dunkchumpу/додатку
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contacts">
+        <div class="container">
+           <div class="contacts__wrapper">
+            <div class="contacts__photo">
+                <img src="img/me4.jpg" alt="photo" >
+            </div>
+            <div class="contacts__descr">
+                <h2 class="title title_fz16 contacts__title">Контакти</h2>
+                <div class="title title_fz36 contacts__subtitle">Зі мною краще не зв'язуватись</div>
+                <div class="divider"></div>
+                <div class="title title_fz14 contacts__text">Зручним не способом</div> 
+                <div class="contacts__social">
+                    <a class="contacts__link">
+                        <svg width="30" height="30" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M17.0698 0L2.9292 0C1.3139 0 -0.000488281 1.31439 -0.000488281 2.92969L-0.000488281 17.0703C-0.000488281 18.6856 1.3139 20 2.9292 20L8.82764 20L8.82764 12.9297L6.48389 12.9297L6.48389 9.41406L8.82764 9.41406L8.82764 7.03125C8.82764 5.09262 10.4046 3.51563 12.3433 3.51563L15.8979 3.51563L15.8979 7.03125L12.3433 7.03125L12.3433 9.41406L15.8979 9.41406L15.312 12.9297L12.3433 12.9297L12.3433 20L17.0698 20C18.6851 20 19.9995 18.6856 19.9995 17.0703L19.9995 2.92969C19.9995 1.31439 18.6851 0 17.0698 0Z" fill="black"/>
+                            </svg>
+                    </a>
+                    <a class="contacts__link">
+                        <img src="icons/social/telegram.svg" alt="telegram">
+                        
+                    </a>
+                    <a class="contacts__link">
+                        <img src="icons/social/instagram.svg" alt="instagram">
+                    </a>
+                </div>
+                <div class="title title_fz14 contacts__text">Або залишіть ваші дані і я сам вам не напишу</div> 
+
+                <form action="#" class="contacts__form">
+                    <div class="contacts__input">
+                        <input required id="name" type="name">
+                        <label required for="name">Ваше найменування</label>
+                    </div>
+                    <div class="contacts__input">
+                        <input name="name" id="email" type="email">
+                        <label name="email" for="email">Ваша поштова скринька</label>
+                    </div>
+
+                    <div class="contacts__textarea">
+                        <textarea name="text" id="text" ></textarea>
+                        <label for="text">Ваш лист</label>  
+                    </div>
+                    <div class="contacts__triggers">
+                        <button class="contacts__btn btn">Надіслати гулуба</button>
+                        <div class="contacts__policy">
+                            <input required type="checkbox">
+                            <span>Я згоден(на) з <a href="/policy.html">політикою коденфіційності</a></span>
+                        </div>
+                    </div>
+                </form>
+            </div>
+           </div>
+
+        </div>
+    </section>
