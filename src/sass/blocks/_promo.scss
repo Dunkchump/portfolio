@@ -12,6 +12,7 @@
         position: relative;
         padding-left: 10px;
         z-index: 2;
+        
     }
     &__btns {
         margin-top: 25px;
@@ -21,7 +22,7 @@
         align-items: center;
     }
     &__link {
-        color:#000;
+        color:#fffce9;
         font-weight: bold;
         &:hover {
             color:#000;

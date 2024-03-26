@@ -43,11 +43,7 @@
         &__anime {
             grid-row: 3/4;
             grid-column: 2/4;
-            img {
-                // width: 269px;
-                // height: 100%;
-               
-            }
+           
         }
     }
     .skills {
@@ -145,11 +141,7 @@
         &__anime {
             grid-row: unset;
             grid-column: unset;
-            img {
-                // width: 269px;
-                // height: 100%;
-               
-            }
+          
         }
     }
     .skills {
@@ -269,11 +261,7 @@
         &__anime {
             grid-row: unset;
             grid-column: unset;
-            img {
-                // width: 269px;
-                // height: 100%;
-               
-            }
+            
         }
     }
     .skills {
@@ -348,6 +336,7 @@
         }
     }
     .promo {
+        background: url('../img/me3.jpg')no-repeat 20% / cover ;
         &__btns {
             margin-top: 100px;
         }
@@ -385,7 +374,7 @@
     }
     .resume {
         &__wrapper {
-            
+            padding-left: 10px;
             grid-template-columns: 1fr;
             column-gap: 20px;
         }
@@ -405,11 +394,7 @@
         &__anime {
             grid-row: unset;
             grid-column: unset;
-            img {
-                // width: 269px;
-                // height: 100%;
-               
-            }
+            
         }
     }
     .skills {
@@ -449,6 +434,7 @@
             grid-template-columns:  1fr;
             
             padding: 0;
+            padding-left: 5px;
         }
 
         &__form {
@@ -489,12 +475,18 @@
     .contacts__policy {
         order: 1;
         width: 300px;
+        margin: 0 auto;
         margin-bottom: 10px;
-      }
+    }
       
     .contacts__btn {
         order: 2;
-      }
+    }
     
+    .sidepanel {
+        &__link {
+            margin-bottom: 20px;
+        }
+    }
     
 }
